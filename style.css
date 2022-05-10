@@ -1,0 +1,62 @@
+body {
+  color:black;
+  background-color:black;
+  background-image: url(images/font-apex.png);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+}
+
+
+#milieu
+{
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px red;
+}
+p {
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 2px red;
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px red;
+}
+hr {
+  color: white;
+}
+nav.menu-nav {
+  font-size: 25px;
+}
+nav.menu-nav ul p{
+	visibility: hidden;
+}
+nav.menu-nav ul li.bouton{
+	display: inline-block;
+	list-style-type: none;
+}
+nav.menu-nav ul li.bouton a{
+	color: white;
+	text-decoration: none;
+	background-color: #C80000;
+	padding: 5px;
+	border-radius: 5px;
+}
+nav.menu-nav ul li.bouton:hover a{
+	color: white;
+	background-color: grey;
+	transition: 0.3s all;
+}
+
+#pc_rank {
+  color: white;
+  text-shadow: 1px 1px 2px red;
+}

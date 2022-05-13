@@ -60,3 +60,20 @@ nav.menu-nav ul li.bouton:hover a{
   color: white;
   text-shadow: 1px 1px 2px red;
 }
+
+.btn {
+    height: 100px;
+    width: 100px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.icone {
+    width: 50px;
+}
